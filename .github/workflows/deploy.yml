@@ -17,4 +17,5 @@ jobs:
         run: |
           bash /home/hermes/deploy/generic.sh \
             "wefaber.net" \
-            "https://github.com/wefaber/wefaber.git"
+            "https://github.com/wefaber/wefaber.git" \
+            "master"
