@@ -1,0 +1,21 @@
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+
+concurrency:
+  group: deploy-wefaber
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    timeout-minutes: 15
+    steps:
+      - name: Deploy
+        run: |
+          bash /home/hermes/deploy/generic.sh \
+            "wefaber.net" \
+            "https://github.com/wefaber/wefaber.git" \
+            "master"
