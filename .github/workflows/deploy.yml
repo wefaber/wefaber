@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 concurrency:
   group: deploy-wefaber
@@ -18,4 +18,4 @@ jobs:
           bash /home/hermes/deploy/generic.sh \
             "wefaber.net" \
             "https://github.com/wefaber/wefaber.git" \
-            "master"
+            "main"
