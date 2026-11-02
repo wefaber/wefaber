@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "typecheck": "tsc -b --noEmit",
+    "typecheck": "bun check",
     "lint": "oxlint",
     "preview": "vite preview",
     "assets": "bun run scripts/generate-assets.ts"
