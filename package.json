@@ -1,11 +1,11 @@
 {
   "name": "wefaber",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && bun scripts/prerender.ts",
     "typecheck": "bun check",
     "lint": "oxlint",
     "preview": "vite preview",
