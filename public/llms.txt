@@ -1,0 +1,37 @@
+# WeFaber
+
+> Software and applied AI studio based in Montevideo, Uruguay. "We fabricate" —
+> the name comes from the Latin *faber*, the artisan: the one who makes, not the
+> one who describes what he would make.
+
+WeFaber builds software, applied AI and R&D products. The site presents the
+studio's three practices — software development, applied AI, and research and
+development — plus the story behind the name, the stack and the values.
+
+The name is the public face of the Itica-to-WeFaber rebrand; the previous
+corporate site lives on at https://itica.eternum.lat (legacy, Spanish only).
+
+## Products and lines
+
+- **JobIt** (https://jobit.wefaber.net, app at https://jobs.wefaber.net): job
+  offers from Uruguay's portals and the State's public calls in one board,
+  first-job oriented, no account needed.
+- **LearnIt** (https://learnit.wefaber.net): builds a learning path for any
+  subject and goal, writes the exercises and explains when you are stuck.
+- **WeGraph** (https://graph.wefaber.net): Idea Graph MCP server that gives each
+  AI agent only the organisation's rules and decisions its task needs.
+- **OhMy** (https://ohmy.lat): suite of local-first productivity tools.
+- **Talentum** (https://talentum.live): talent agency and creative studio for
+  streamers and content creators.
+- **Lux** (https://lux.eternum.lat): institutional project, SGRSI for UTU.
+
+## Founder
+
+- Facundo Presa (https://facupresa.com), entrepreneur, designer and developer
+  based in Uruguay.
+
+## Contact
+
+- Email: hola@wefaber.net
+- Site: https://wefaber.net
+- GitHub: https://github.com/wefaber

@@ -59,6 +59,7 @@ export function SEO() {
       'Node.js',
     ],
     sameAs: [site.social.github, site.social.linkedin],
+    founder: { '@type': 'Person', name: 'Facundo Presa', url: 'https://facupresa.com' },
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'business enquiries',
